@@ -1,0 +1,72 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style:none;
+    padding: 0px;
+    margin:0;
+}
+
+
+h1{
+    text-align: center;
+
+}
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    background-color: rgb(219, 241, 234);
+    color: black;
+    padding: 20px;
+    box-shadow: 0 14px 28px #0567523d, 0 10px 10px rgba(81, 144, 232, 0.22);
+
+}
+.skill li{
+    margin: 20px 0px;
+    padding: 10px;
+}
+.bar{
+    background-color: white;
+    display: block;
+    height: 20px;
+    border:1px solid rgba(0,0,0,0.3) ;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 1 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+}
+
+.bar:hover{
+    box-shadow: 0 14px 28px #0567523d, 0 10px 10px rgba(81, 144, 232, 0.22);
+}
+.bar spam{
+    height: 20px;
+    float: left;
+    background-color:rgb(71, 71, 201);
+}
+.html{
+    width: 80%;
+    animation: html 3s;
+}
+.css{
+    width: 65%;
+    animation: css 3s;
+}
+.javascript{
+    width: 65%;
+    animation:javascript 3s;
+}
+.java{
+    width: 60%;
+    animation: java 3s;
+}
+.c{
+    width: 60%;
+    animation: c 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:80%;
+    }
+}
