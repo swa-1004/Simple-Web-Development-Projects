@@ -1,2 +1,4 @@
-# hii1-
-I have completed the three task assigned to me by codesoft.I'm heartfully thank for "Codesoft" for giving this oppurtunity.
+It has three Simple Web development related projects
+1.Calculator
+2.Landing Page
+3.Personel Protfolio
